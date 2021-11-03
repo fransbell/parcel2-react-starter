@@ -1,0 +1,19 @@
+{
+  "name": "parcel2-react-starter",
+  "version": "1.0.0",
+  "description": "parcel stater for reactjs",
+  "scripts": {
+    "dev":"parcel ./src/index.html --dist-dir tmp" ,
+    "build": "parcel build ./src/index.html --dist-dir .public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
